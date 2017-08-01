@@ -88,7 +88,7 @@ function modalClientCtrl($scope,api){
 		this.scope.showModal = false;
 		this.scope.newClientFormView = false;
 	}
-	this.saveItem - function(){
+	this.saveItem = function(){
 		if(this.scope.pass1 !== this.scope.pass2){
 
 		}
